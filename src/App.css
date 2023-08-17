@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 98%;
+  margin: auto;
+}
+
+@media screen and (min-width:768px){
+  .container{
+    width: 70%;
+  }
+}
+
+.detail{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.detail_image{
+  width: 100%;
+}
+
+.content{
+  width: 100%;
+}
+
+@media screen and (min-width:768px){
+  .detail_image{
+    width: 50%;
+  }
+  .content{
+    padding-left: 3rem;
+    width: 50%;
+  }
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.itemcart{
+  display: flex;
+  border-bottom: 1px solid grey;
+  max-width: 500px;
+  margin: 1rem auto;
+}
+
+.itemcart img{
+  width: 200px;
+  margin-right: 1rem;
+}
+
+.counter{
+  width: fit-content;
+  background-color: beige;
+  margin: auto;
+  margin-top: 2rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10px;
+}
+.resta{
+ margin-right: 1rem;
+ border-radius: 20px;
+}
+.suma{
+  margin-left: 1rem;
+  border-radius: 20px;
+}
+.agregarCarrito{
+  margin-top: 1rem;
+}
